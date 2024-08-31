@@ -68,7 +68,7 @@ elif selected == "Projects":
     
     with DASHBOARD: 
        st.subheader('Bank Customer Chrun Prediction Dashborad')
-       st.image("D:\Myportfoilo\dashborad.png")
+       st.image("dashborad.png")
     
         
     with Prediction: 
