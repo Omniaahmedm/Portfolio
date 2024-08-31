@@ -9,6 +9,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 import pickle
+from PIL import Image
 
 # Function to load image and convert to base64
 
@@ -68,8 +69,10 @@ elif selected == "Projects":
     
     with DASHBOARD: 
        st.subheader('Bank Customer Chrun Prediction Dashborad')
-       st.image("dashborad.png")
-    
+       
+      # Load the image
+       image_path = "dashborad.png"
+       image = Image.open(image_path)
         
     with Prediction: 
         
