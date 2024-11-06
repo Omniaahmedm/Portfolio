@@ -43,11 +43,11 @@ if selected == "Overview":
    st.subheader('Certifications:')
    st.write('IBM Data Science Professional Cerificate – Coursera | 2023')
 elif selected == "Projects":
-  col1, col2, col3 = st.columns([1, 1, 1])
-      with col1:
-        st.image("https://miro.medium.com/max/737/1*Xap6OxaZvD7C7eMQKkaHYQ.jpeg", caption="BProject1")
-        st.markdown("[Link]()")
-      with col2:
-        st.image("https://miro.medium.com/max/737/1*Xap6OxaZvD7C7eMQKkaHYQ.jpeg", caption="Project2") 
-        st.markdown("[Link]()")
+  col1, col2, col3 = st.columns(3)
+  with col1:
+    st.image("https://miro.medium.com/max/737/1*Xap6OxaZvD7C7eMQKkaHYQ.jpeg", caption="BProject1")
+    st.markdown("[Link]()")
+  with col2:
+    st.image("https://miro.medium.com/max/737/1*Xap6OxaZvD7C7eMQKkaHYQ.jpeg", caption="Project2") 
+    st.markdown("[Link]()")
     
