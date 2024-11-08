@@ -48,7 +48,7 @@ elif selected == "Projects":
   st.image("https://miro.medium.com/v2/resize:fit:828/format:webp/0*4oNUgPOA69JyeVwL.jpg", caption="Suspicious Web Threat Interactions")
   st.write('')
   st.write('Skills: Data Preprocessing & Cleaning | Feature Engineering |   Machine Learning & Model Training  | Evaluation & Interpretability ')
-  st.write('Tools: Pandas , NumPy,  Matplotlib / Seaborn, Scikit-learn, XGBoost ')
+  st.write('Tools: Pandas | NumPy| Matplotlib / Seaborn | Scikit-learn | XGBoost ')
   st.markdown("[Link](https://portfolio-project1.streamlit.app/)")
   st.write('''This Python-based pipeline is designed for web traffic analysis and threat detection, aimed at identifying suspicious or malicious interactions within web application traffic. The goal is to flag anomalous behaviors such as data exfiltration, brute-force attacks, DoS attacks, and geographic anomalies that may indicate potential cybersecurity threats. The pipeline performs several stages of data processing, feature engineering, and machine learning model training to detect malicious activity.
 
