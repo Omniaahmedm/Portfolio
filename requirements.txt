@@ -4,4 +4,4 @@ matplotlib
 seaborn
 streamlit-option-menu
 numpy
-xgboost
+xgboost==1.7.0
