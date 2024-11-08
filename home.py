@@ -74,13 +74,6 @@ elif selected == "Projects":
 
    Performance metrics like accuracy, precision, recall, and F1-score are used to evaluate the effectiveness of the model.
    The SHAP library is employed for model interpretability, explaining the importance of features in predicting suspicious activities.''')
-   st.write('Skills:')
-   st.write('''- Data Preprocessing & Cleaning  
-                - Feature Engineering      
-                - Machine Learning & Model Training   
-                - Evaluation & Interpretability ''') 
-   st.write('Tools:')
-   st.write('Pandas , NumPy,  Matplotlib / Seaborn, Scikit-learn, XGBoost ')
-   st.markdown("[Link](https://portfolio-project1.streamlit.app/)")
+   
  
     
