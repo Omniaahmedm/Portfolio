@@ -45,9 +45,7 @@ if selected == "Overview":
 elif selected == "Projects":
   col1, col2, col3 = st.columns(3)
   with col1:
-    st.image("https://cdn.prod.website-files.com/5e6bef9160e290b99b7644b5/63808104eb03b0baafa0a437_Complete%20Guide%20on%20Causal%20Analysis%20Essay%20Writing-p-800.png", caption="Predicting Effective Arguments")
-    st.markdown("[Link]()")
-  with col2:
-    st.image("https://miro.medium.com/max/737/1*Xap6OxaZvD7C7eMQKkaHYQ.jpeg", caption="Project2") 
-    st.markdown("[Link]()")
+    st.image("https://miro.medium.com/v2/resize:fit:828/format:webp/0*4oNUgPOA69JyeVwL.jpg", caption="Suspicious Web Threat Interactions")
+    st.markdown("[Link](https://portfolio-project1.streamlit.app/)")
+ 
     
