@@ -1,4 +1,6 @@
 pandas
 numpy
 scikit-learn
-streamlit
+streamlit==1.17.0
+xgboost
+
