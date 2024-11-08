@@ -49,11 +49,10 @@ elif selected == "Projects":
   st.write('')
   st.write('Skills:')
   st.write('''- Data Preprocessing & Cleaning  
-                - Feature Engineering      
-                - Machine Learning & Model Training   
-                - Evaluation & Interpretability ''') 
-  st.write('Tools:')
-  st.write('Pandas , NumPy,  Matplotlib / Seaborn, Scikit-learn, XGBoost ')
+              - Feature Engineering      
+              - Machine Learning & Model Training   
+              - Evaluation & Interpretability ''') 
+  st.write('Tools: Pandas , NumPy,  Matplotlib / Seaborn, Scikit-learn, XGBoost ')
   st.markdown("[Link](https://portfolio-project1.streamlit.app/)")
   st.write('''This Python-based pipeline is designed for web traffic analysis and threat detection, aimed at identifying suspicious or malicious interactions within web application traffic. The goal is to flag anomalous behaviors such as data exfiltration, brute-force attacks, DoS attacks, and geographic anomalies that may indicate potential cybersecurity threats. The pipeline performs several stages of data processing, feature engineering, and machine learning model training to detect malicious activity.
 
