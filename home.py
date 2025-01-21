@@ -82,18 +82,18 @@ elif selected == "Projects":
         st.write('''
            #### EDA Key Findings
            - **Defect Rates**: Haircare products have the highest defect rate (2.48%), followed by skincare (2.33%) and cosmetics (1.92%).''')
-             st.image('https://github.com/Omniaahmedm/Portfolio/blob/main/newplot%20(3).png')
-          st.write (' - **Supply Chain Risk**: Top 10 highest-risk SKUs are primarily due to high lead times and low stock levels.')
-              st.image('https://github.com/Omniaahmedm/Portfolio/blob/main/newplot%20(2).png')
-          st.write ('  - **Inventory Optimization**: EOQ analysis suggests optimal order quantities vary significantly across SKUs.')
-              st.image('https://github.com/Omniaahmedm/Portfolio/blob/main/newplot%20(1).png')
-           st.write ('- **Customer Segmentation**: Female customers generate highest average revenue ($6,095) for skincare products.')
-              st.image('https://github.com/Omniaahmedm/Portfolio/blob/main/newplot%20(4).png')
-          st.write ('- **Lead Time Optimization**: Sea transportation mode has the shortest average lead time (12.18 days).')
-             st.image('https://github.com/Omniaahmedm/Portfolio/blob/main/newplot%20(5).png')
-           st.write ('- **Best Route**: Route A has the shortest average lead time (14.7 days).')
-             st.image('https://github.com/Omniaahmedm/Portfolio/blob/main/newplot%20.png')
-           st.write('''  
+        st.image('https://github.com/Omniaahmedm/Portfolio/blob/main/newplot%20(3).png')
+        st.write (' - **Supply Chain Risk**: Top 10 highest-risk SKUs are primarily due to high lead times and low stock levels.')
+        st.image('https://github.com/Omniaahmedm/Portfolio/blob/main/newplot%20(2).png')
+        st.write ('  - **Inventory Optimization**: EOQ analysis suggests optimal order quantities vary significantly across SKUs.')
+        st.image('https://github.com/Omniaahmedm/Portfolio/blob/main/newplot%20(1).png')
+        st.write ('- **Customer Segmentation**: Female customers generate highest average revenue ($6,095) for skincare products.')
+        st.image('https://github.com/Omniaahmedm/Portfolio/blob/main/newplot%20(4).png')
+        st.write ('- **Lead Time Optimization**: Sea transportation mode has the shortest average lead time (12.18 days).')
+        st.image('https://github.com/Omniaahmedm/Portfolio/blob/main/newplot%20(5).png')
+        st.write ('- **Best Route**: Route A has the shortest average lead time (14.7 days).')
+        st.image('https://github.com/Omniaahmedm/Portfolio/blob/main/newplot%20.png')
+        st.write('''  
            #### Recommendations
             - Improve quality control measures for haircare products.
             - Implement risk mitigation strategies for high-risk SKUs.
