@@ -51,7 +51,7 @@ elif selected == "Projects":
   
         st.write('Skills: Data Analysis | Machine Learning & Model Training   ')
         st.write('Tools: Pandas | NumPy| Matplotlib / Seaborn | Scikit-learn  ')
-        st.markdown("[Link](https://portfolio-project1.streamlit.app/)")
+        
         st.write(''' 
 
          #### Situation
@@ -73,10 +73,33 @@ elif selected == "Projects":
          Data visualization (Power BI).
 
          #### Result
-         Optimal production volume: 104
-         Minimized manufacturing cost: $44.93
-         Model performance: Moderate (MSE=858.72, R2=-0.07)
+         - Optimal production volume: 104
+         -  Minimized manufacturing cost: $44.93
+         - Model performance: Moderate (MSE=858.72, R2=-0.07)
 ''')
    
  
-    
+        st.write('''
+           #### EDA Key Findings
+           - **Defect Rates**: Haircare products have the highest defect rate (2.48%), followed by skincare (2.33%) and cosmetics (1.92%).
+           - **Supply Chain Risk**: Top 10 highest-risk SKUs are primarily due to high lead times and low stock levels.
+           - **Inventory Optimization**: EOQ analysis suggests optimal order quantities vary significantly across SKUs.
+           - **Customer Segmentation**: Female customers generate highest average revenue ($6,095) for skincare products.
+           - **Lead Time Optimization**: Sea transportation mode has the shortest average lead time (12.18 days).
+           - **Best Route**: Route A has the shortest average lead time (14.7 days).
+           
+           #### Recommendations
+            - Improve quality control measures for haircare products.
+            - Implement risk mitigation strategies for high-risk SKUs.
+            - Optimize inventory levels based on EOQ analysis.
+            - Target female customers with personalized marketing campaigns.
+            - Prioritize sea transportation mode for faster delivery.
+            - Utilize Route A for efficient logistics.
+           #### Future Analysis
+
+            - Conduct root cause analysis for high defect rates.
+            - Develop predictive models for demand forecasting.
+            - Analyze cost savings from optimized inventory levels.
+            - Investigate customer demographics' impact on purchasing behavior.
+            - Evaluate sustainability implications of transportation modes.
+        ''')
