@@ -46,7 +46,7 @@ elif selected == "Projects":
     tab1, tab2 = st.tabs(["Project", "Power BI report"])
   #col1, col2, col3 = st.columns(3)
     with tab1:
-        st.write('Supply Chain Analytics & Modeling')
+        st.subheader('Supply Chain Analytics & Modeling')
         st.image("https://blog.cedarmanagement.co.uk/wp-content/uploads/2020/04/Supply-chain-blog-cover-desktop-size-15-04.png", caption="Supply Chain Analytics & Modeling")
   
         st.write('Skills: Data Analysis | Machine Learning & Model Training   ')
@@ -54,25 +54,25 @@ elif selected == "Projects":
         st.markdown("[Link](https://portfolio-project1.streamlit.app/)")
         st.write(''' 
 
-         Situation
+         #### Situation
          Global market competition demands efficient supply chain management.
 
-         Task
+         #### Task
          Improve supply chain operations through advanced analytics and modeling.
 
-         Action
-         Phase 1: Data Analysis
+         #### Action
+         - Phase 1: Data Analysis
          Data cleaning and preprocessing.
          Exploratory Data Analysis (EDA).
    
-         Phase 2: Modeling
+         - Phase 2: Modeling
          Cost optimization (Linear Regression).
    
-         Tools and Techniques
+         #### Tools and Techniques
          Python (Pandas, NumPy, Scikit-learn).
          Data visualization (Power BI).
 
-         Result
+         #### Result
          Optimal production volume: 104
          Minimized manufacturing cost: $44.93
          Model performance: Moderate (MSE=858.72, R2=-0.07)
