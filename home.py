@@ -109,7 +109,7 @@ elif selected == "Projects":
           - Cost optimization model performance is moderate (MSE=858.72, R2=-0.07).
           - Further hyperparameter tuning and feature engineering may improve model performance.
           ''')
-     with tab2:
+    with tab2:
          st.subheader('Supply Chain Analytics Power bi Report')
          st.write('''
         ### Introduction
