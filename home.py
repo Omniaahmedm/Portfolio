@@ -118,3 +118,24 @@ elif selected == "Projects":
           Expand payment options and prioritize timely delivery. Focus on Western Europe and Estados Unidos markets. Regularly review sales trends and customer demographics.
           ''')
          st.image("https://github.com/Omniaahmedm/Portfolio/blob/main/Screenshot%202025-01-22%20135543.png?raw=true", caption="Supply Chain Analytics Dashboard")
+         st.write('''
+        ### Results
+         - **Sales by Customer Segment**: Consumers led with $7,413,629.73 in sales, followed by corporate ($4,252,647.58) and home office ($2,495,321.50) customers.
+         - **Average Sales per Customer Segment**: Consumers averaged $1,482,725.95, followed by corporate ($850,529.52) and home office ($499,064.30).
+         - **Sales by Category**: Fishing accounted for 19.06% of order profit per order ($756,220.77).
+         - **Delivery Class**: Standard class had the highest average sales ($2,675,827.30) and total sales ($13,379,136.51).
+         - **Sales Trends**: Sales declined by 97.31% since 2015, with Western Europe leading ($5,894,380.77).
+         - **Delivery Report**: Late delivery had the highest sales, indicating timely delivery's importance.
+         - **Payment Methods**: DEBIT accounted for 38.27% of sales ($14,076,857.66), followed by TRANSFER, PAYMENT and CASH.
+       ### Key Insights
+        - Consumers drive sales, emphasizing the importance of targeted marketing.
+        - Fishing and standard class deliveries offer opportunities for growth.
+        - Timely delivery and multiple payment options enhance customer satisfaction.
+        - Western Europe and Estados Unidos are critical markets.
+       ### Recommendations
+        - Develop targeted marketing campaigns for consumer and corporate segments.
+        - Optimize fishing and standard class delivery operations.
+        - Expand payment options and prioritize timely delivery.
+        - Focus on Western Europe and Estados Unidos markets.
+        - Regularly review sales trends and customer demographics.
+          ''')
