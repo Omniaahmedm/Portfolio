@@ -120,7 +120,7 @@ elif selected == "Projects":
          st.image("https://github.com/Omniaahmedm/Portfolio/blob/main/Screenshot%202025-01-22%20135543.png?raw=true", caption="Supply Chain Analytics Dashboard")
          st.write('''
         ### Results
-         - **Sales by Customer Segment**: Consumers led with $7,413,629.73 in sales, followed by  corporate ($4,252,647.58) and home office ($2,495,321.50) customers.
+         - **Sales by Customer Segment**: Consumers led with ($7,413,629.73) in sales , followed by corporate ($4,252,647.58) and home office ($2,495,321.50) customers.
          - **Average Sales per Customer Segment**: Consumers averaged $1,482,725.95, followed by  corporate ($850,529.52) and home office ($499,064.30).
          - **Sales by Category**: Fishing accounted for 19.06% of order profit per order ($756,220.77).
          - **Delivery Class**: Standard class had the highest average sales ($2,675,827.30) and total sales ($13,379,136.51).
