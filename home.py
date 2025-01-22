@@ -118,6 +118,7 @@ elif selected == "Projects":
           Expand payment options and prioritize timely delivery. Focus on Western Europe and Estados Unidos markets. Regularly review sales trends and customer demographics.
           ''')
          st.image("https://github.com/Omniaahmedm/Portfolio/blob/main/Screenshot%202025-01-22%20135543.png?raw=true", caption="Supply Chain Analytics Dashboard")
+         st.write('Sales by Customer Segment: Consumers led with $7,413,629.73 in sales, followed by corporate ($4,252,647.58) and home office ($2,495,321.50) customers.')
          st.write('''
         ### Results
          - **Sales by Customer Segment**: Consumers led with ($7,413,629.73) in sales , followed by corporate ($4,252,647.58) and home office ($2,495,321.50) customers.
