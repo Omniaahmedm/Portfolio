@@ -104,8 +104,17 @@ elif selected == "Projects":
             - Evaluate sustainability implications of transportation modes.
         ''')
         st.write('''
-          #### Modeling Key Findings
+           #### Modeling Key Findings
           - Linear Regression cost optimization model identifies optimal production volume (104) with minimized manufacturing cost (44.93).
           - Cost optimization model performance is moderate (MSE=858.72, R2=-0.07).
           - Further hyperparameter tuning and feature engineering may improve model performance.
           ''')
+     with tab2:
+         st.subheader('Supply Chain Analytics Power bi Report')
+         st.write('''
+        ### Introduction
+          This report analyzes the DataCo Global supply chain dataset, providing insights into consumer behavior, sales trends and market geography. The report aims to identify areas for optimization and inform strategic business decisions.
+        ### Objective
+          Expand payment options and prioritize timely delivery. Focus on Western Europe and Estados Unidos markets. Regularly review sales trends and customer demographics.
+          ''')
+         st.image("https://github.com/Omniaahmedm/Portfolio/blob/main/Screenshot%202025-01-22%20135543.png?raw=true", caption="Supply Chain Analytics Dashboard")
